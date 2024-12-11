@@ -1,0 +1,28 @@
+.header__box {
+  width: 350px;
+  height: 350px;
+  background-color: #009ee2;
+  position: absolute;
+  top: calc(50% - 175px);
+  right: 0px;
+  rotate: 80deg;
+  animation: rotate 8s ease normal infinite;
+}
+
+
+@keyframes rotate {
+  0% {
+    rotate: 0deg;
+    background-color: #009ee2;
+    right: 0px;
+  }
+  50% {
+    background-color: #ff9fff;
+    right: 300px;
+  }
+  100% {
+    rotate: -360deg;
+    background-color: #009ee2;
+    right: 0px;
+  }
+} 

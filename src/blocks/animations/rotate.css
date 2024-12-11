@@ -1,0 +1,16 @@
+@keyframes rotate {
+  0% {
+    rotate: 0deg;
+    background-color: #009ee2;
+    right: 0px;
+  }
+  50% {
+    background-color: #ff9fff;
+    right: 300px;
+  }
+  100% {
+    rotate: -360deg;
+    background-color: #009ee2;
+    right: 0px;
+  }
+}

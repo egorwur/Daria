@@ -1,0 +1,18 @@
+@import url(../../animations/color.css);
+
+.header__title {
+  animation: color 8s ease normal infinite;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+@keyframes color {
+  0% {
+    color: #009ee2;
+  }
+  50% {
+    color: #ff9fff;
+  }
+  100% {
+    color: #009ee2;
+  }
+}

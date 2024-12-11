@@ -1,0 +1,11 @@
+@keyframes color {
+  0% {
+    color: #009ee2;
+  }
+  50% {
+    color: #ff9fff;
+  }
+  100% {
+    color: #009ee2;
+  }
+}

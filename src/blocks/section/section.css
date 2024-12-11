@@ -1,0 +1,19 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+.section:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+
+.section:nth-child(even) {
+  background-color: #e9ecef;
+}
