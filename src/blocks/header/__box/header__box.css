@@ -5,8 +5,8 @@
   position: absolute;
   top: calc(50% - 175px);
   right: 0px;
-  rotate: 80deg;
-  animation: rotate 8s ease normal infinite;
+  rotate: 0deg;
+  animation: rotate 8s ease-in-out normal infinite;
 }
 
 
@@ -21,7 +21,7 @@
     right: 300px;
   }
   100% {
-    rotate: -360deg;
+    rotate: -450deg;
     background-color: #009ee2;
     right: 0px;
   }
