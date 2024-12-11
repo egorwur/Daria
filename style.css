@@ -23,9 +23,6 @@
 @import url(./src/blocks/footer/footer.css);
 
 
-* {
-  box-sizing: border-box;
-}
 /* .page {
   background-color: #fff;
   display: flex;
