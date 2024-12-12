@@ -1,7 +1,7 @@
 @import url(../../animations/color.css);
 
 .header__title {
-  animation: color 8s ease normal infinite;
+  animation: color 8s ease-in-out normal infinite;
   /* font-family: Arial, Helvetica, sans-serif; */
 }
 
