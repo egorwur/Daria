@@ -32,6 +32,41 @@
   text-align: center;
   margin-top: 20px;
 } */
+.back-to-top {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: #009ee2;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+  z-index: 1000;
+}
+
+.back-to-top:visited {
+  background-color: #009ee2;
+  color: #fff;
+}
+
+.back-to-top.hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none; /* Отключаем клики, когда элемент скрыт */
+}
+
+.back-to-top:hover {
+  background-color: #5548cc;
+  transform: scale(1.1);
+  text-decoration: none;
+}
 
 .header__title {
   font-size: 2rem;
@@ -58,6 +93,7 @@
 
 .nav__item {
   margin: 8px 0;
+  /* text-align: center; */
 }
 
 .nav__link, .nav__sublink {
@@ -178,8 +214,13 @@ a:active {
       font-size: 1.6rem;
   }
 
+  .header__container {
+    margin: auto auto;
+    text-align: center;
+  }
+
   .nav__link, .nav__sublink {
-      font-size: 0.8rem;
+      font-size: 1rem;
   }
 
   .content__title, .content__subtitle {

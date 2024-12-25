@@ -1,6 +1,6 @@
 .header__container {
   max-width: 500px;
-  margin: auto 0;
+  margin: auto 50px;
   /* margin-left: 25%; */
   z-index: 1;
 }

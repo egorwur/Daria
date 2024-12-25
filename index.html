@@ -26,7 +26,7 @@
         <div class="header__box"></div>
         <!-- <div class="header__arrow"></div> -->
       </header>
-      <nav class="nav">
+      <nav class="nav" id="content">
         <ul class="nav__list">
             <li class="nav__item"><a class="nav__link" href="#slovar-terminov">Словарь терминов</a></li>
             <li class="nav__item"><a class="nav__link" href="#klyuchevye-messhedzhi">Ключевые месседжи</a></li>
@@ -139,12 +139,31 @@
             <p class="content__placeholder">#</p>
         </section>
     </main>
-
+    <a href="#content" class="back-to-top hidden" aria-label="Вернуться к содержанию">
+      ↑
+    </a>
     <!-- <footer class="footer">
       <h2>ПОДВАЛ</h2>
     </footer> -->
 
     <script>
+document.addEventListener('DOMContentLoaded', () => {
+  const backToTopButton = document.querySelector('.back-to-top');
+  const contentSection = document.querySelector('#content');
+
+  window.addEventListener('scroll', () => {
+    const contentBottom = contentSection.getBoundingClientRect().bottom;
+    const windowHeight = window.innerHeight;
+
+    // Показываем кнопку, если нижняя граница содержания выше верхней границы окна
+    if (contentBottom < 0) {
+      backToTopButton.classList.remove('hidden');
+    } else {
+      backToTopButton.classList.add('hidden');
+    }
+  });
+});
+
       const stars = document.querySelectorAll(".star");
       let selectedRating = 0;
 
