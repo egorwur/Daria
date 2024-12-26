@@ -499,7 +499,7 @@ a:active {
   }
   .nav__item {
     width: 100%;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
   }
 }
 
