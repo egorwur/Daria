@@ -53,10 +53,10 @@
 }
 @media (max-width: 768px) {
   .header__box {
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     animation: rotate3 8s ease-in-out normal infinite;
-    right: calc(50% - 75px);
+    right: calc(50% - 65px);
   }
   @keyframes rotate3 {
     0% {
