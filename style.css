@@ -161,12 +161,12 @@
 
 /* Стили для навигации */
 .nav {
-  margin: 0px auto 30px;
+  margin: 0px auto -45px;
   text-align: left;
   max-width: 1280px;
   /* display: flex;
   flex-direction: column; */
-  padding: 10px;
+  padding: 10px 10px 0;
   position: relative;
   /* overflow: hidden; */
 }
@@ -184,6 +184,7 @@
   gap: 10px;
   align-items: center;
   justify-content: center;
+  padding-bottom: 55px;
 }
 
 .nav__item {
@@ -324,6 +325,7 @@
   margin: 0 auto;
   padding: 10px;
   padding-top: 0;
+  position: relative;
 }
 
 .content__section {
@@ -342,6 +344,10 @@
   color: #009ee2;
   font-weight: bold;
   margin-bottom: 10px;
+}
+
+.content__title:nth-child(1) {
+  margin-top: 50px;
 }
 
 .content__placeholder {
