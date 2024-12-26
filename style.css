@@ -6,6 +6,8 @@
 @import url(./src/blocks/page/__content/page__content.css);
 @import url(./src/blocks/page/__header/page__header.css);
 
+@import url(./src/blocks/theme/theme.css);
+
 @import url(./src/blocks/header/header.css);
 @import url(./src/blocks/header/__container/header__container.css);
 @import url(./src/blocks/header/__title/header__title.css);
@@ -18,6 +20,37 @@
 @import url(./src/blocks/section/__subtitle/section__subtitle.css);
 
 @import url(./src/blocks/footer/footer.css);
+
+:root {
+  --background-color: #e9ecef;
+  --text-color: #000000;
+  --background-section-color: #f9f9f9;
+}
+
+[data-theme="dark"] {
+  --background-color: #1e1e1e;
+  --text-color: #ffffff;
+  --background-section-color: #313131;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+body {
+  /* font-family: "Roboto", sans-serif; */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #009ee2;
+  font-weight: bold;
+}
 
 /* .page {
   background-color: #fff;
@@ -190,7 +223,7 @@
 .nav__item {
   margin: 8px 0;
   /* text-align: center; */
-  background-color: #e9ecef;
+  background-color: var(--background-color);
   border-radius: 20px;
   padding: 2px 3px;
   transition: all 0.2s ease-out;
@@ -333,7 +366,7 @@
   padding: 15px 20px;
   /* border: 1px solid #ddd; */
   border-radius: 20px;
-  background-color: #f9f9f9;
+  background-color: var(--background-section-color);
   text-align: left;
 }
 .content__section:nth-child(1) {
@@ -367,19 +400,7 @@
 }
 
 /* Универсальные стили */
-body {
-  /* font-family: "Roboto", sans-serif; */
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
 
-a {
-  text-decoration: none;
-  color: #009ee2;
-  font-weight: bold;
-}
 
 /* a:hover {
   text-decoration: underline;
