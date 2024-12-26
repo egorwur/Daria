@@ -53,16 +53,16 @@
 }
 @media (max-width: 768px) {
   .header__box {
-    width: 125px;
-    height: 125px;
+    width: 100px;
+    height: 100px;
     animation: rotate3 8s ease-in-out normal infinite;
-    right: calc(50% - 65px);
+    right: calc(50% - 50px);
   }
   @keyframes rotate3 {
     0% {
       rotate: 0deg;
       background-color: #009ee2;
-      top: 50px;
+      top: 45px;
     }
     50% {
       background-color: #ff9fff;
@@ -71,7 +71,7 @@
     100% {
       rotate: -450deg;
       background-color: #009ee2;
-      top: 50px;
+      top: 45px;
     }
   } 
 }

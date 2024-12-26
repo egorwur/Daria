@@ -1,0 +1,10 @@
+{
+  "editor.fontFamily": "'Monaspace Neon' , monospace",
+  "editor.fontSize": 15,
+  "editor.fontVariations": false,
+  "editor.fontWeight": 700,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "diffEditor.wordWrap": "on",
+  "editor.minimap.autohide": true,
+}
