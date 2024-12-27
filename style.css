@@ -563,7 +563,7 @@ a {
   font-weight: bold;
 }
 .first-letter {
-  color: var(--primal-color);
+  color: var(--primal-color-2);
   background-color: var(--primal-color-4);
   padding: 2px 5px;
   border-radius: 3px;
