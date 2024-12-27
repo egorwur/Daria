@@ -462,6 +462,9 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.constructor__title {
+  margin-bottom: 0;
+}
 .constructor__list {
   height: 100%;
   display: flex;
