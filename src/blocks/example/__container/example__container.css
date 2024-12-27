@@ -1,0 +1,9 @@
+.example__container {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  width: 100%;
+  justify-content: center;
+  gap: 5px;
+    flex-wrap: wrap;
+}

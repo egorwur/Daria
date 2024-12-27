@@ -1,0 +1,10 @@
+.content__section {
+  margin: 15px auto;
+  padding: 15px 20px;
+  border-radius: 20px;
+  background-color: var(--background-section-color);
+  text-align: left;
+}
+.content__section:nth-child(1) {
+  margin-top: 0;
+}

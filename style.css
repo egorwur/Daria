@@ -21,6 +21,19 @@
 
 @import url(./src/blocks/footer/footer.css);
 
+@import url(./src/blocks/content/content.css);
+@import url(./src/blocks/content/__text/content__text.css);
+@import url(./src/blocks/content/__title/content__title.css);
+@import url(./src/blocks/content/__subtitile/content__subtitle.css);
+@import url(./src/blocks/content/__section/content__section.css);
+
+@import url(./src/blocks/example/example.css);
+@import url(./src/blocks/example/__image/example__image.css);
+@import url(./src/blocks/example/__svg/example__svg.css);
+@import url(./src/blocks/example/__container/example__container.css);
+
+@import url(./src/blocks/list/list.css);
+
 :root {
   --background-color: #e9ecef;
   --text-color: #000000;
@@ -366,45 +379,36 @@ a {
 }
 
 /* Стили для основного контента */
-.content {
+/* .content {
   max-width: 1280px;
   margin: 0 auto;
   padding: 10px;
   padding-top: 0;
   position: relative;
-}
+} */
 
-.content__section {
+/* .content__section {
   margin: 15px auto;
   padding: 15px 20px;
-  /* border: 1px solid #ddd; */
   border-radius: 20px;
   background-color: var(--background-section-color);
   text-align: left;
-}
-.content__section:nth-child(1) {
+} */
+/* .content__section:nth-child(1) {
   margin-top: 0;
-}
-.content__title,
+} */
+/* .content__title,
 .content__subtitle {
   color: #009ee2;
   font-weight: bold;
   margin-bottom: 10px;
   text-align: center;
-}
+} */
 
-.content__title:nth-child(1) {
-  margin-top: 50px;
-}
-
-.content__placeholder {
-  color: #666;
-  font-style: italic;
-}
-.content__text {
+/* .content__text {
   margin: 0 0 5px;
-}
-.content__list {
+} */
+/* .content__list {
   list-style: none;
   margin: 0px auto 0px;
   padding-left: 20px;
@@ -415,12 +419,11 @@ a {
   color: #333;
 }
 .content__list-item {
-  /* list-style: none; */
   position: relative;
 }
 .content__list_ordered {
   margin-right: 5px;
-}
+} */
 .content__highlighted {
   margin: 10px 0;
   background-color: var(--highlighted-color);
@@ -442,16 +445,16 @@ a {
   color: var(--text-color); /* Цвет маркера */
   font-size: 24px;
 }
-.example__image {
+/* .example__image {
   width: 100%;
   border-radius: 15px;
-}
+} */
 
-.example__svg {
+/* .example__svg {
   width: 100px;
   height: 100px;
   filter: var(--svg-filter);
-}
+} */
 
 .constructor {
   display: flex;

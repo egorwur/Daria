@@ -1,0 +1,10 @@
+.example__svg {
+  width: 100px;
+  height: 100px;
+  filter: var(--svg-filter);
+}
+@media (max-width: 768px) {
+  .example__svg {
+    width: 50px;
+    height: 50px;
+  }}

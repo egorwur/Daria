@@ -1,0 +1,28 @@
+/* .content__list {
+  list-style: none;
+  margin: 0px auto 0px;
+  padding-left: 20px;
+}
+
+.content__item {
+  margin: 4px 0;
+  color: #333;
+}
+.content__list-item {
+  position: relative;
+}
+.content__list_ordered {
+  margin-right: 5px;
+} */
+.list {
+  list-style: none;
+  margin: 0px auto 0px;
+  padding-left: 20px;
+}
+
+.list__item {
+  position: relative;
+}
+.list__item_ordered {
+  margin-right: 5px;
+}

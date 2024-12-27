@@ -1,0 +1,8 @@
+.example__image {
+  max-width: 75%;
+  border-radius: 15px;
+  /* max-width: 1000px; */
+  object-fit: contain;
+  max-height: 100%;
+
+}
