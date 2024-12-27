@@ -1,0 +1,40 @@
+.example__image-small {
+  max-width: 45%;
+  border-radius: 15px;
+}
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: start;
+  width: 100%;
+  align-items: start;
+}
+
+.image-container__img {
+  max-width: 32%;
+  height:100%; /* Ensure the height is auto to maintain aspect ratio */
+  border-radius: 10px;
+  object-fit: contain;
+  min-width: 200px;
+}
+.image-container__img2 {
+  max-width: 32%;
+  height: auto;
+  object-fit: contain;
+}
+.example__image {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.example__svg {
+  width: 100px;
+  height: 100px;
+  filter: var(--svg-filter);
+}
+@media (max-width: 768px) {
+  .example__svg {
+    width: 50px;
+    height: 50px;
+  }}
