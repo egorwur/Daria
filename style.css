@@ -95,6 +95,9 @@ a {
   text-align: center;
   margin-top: 20px;
 } */
+.nowrap {
+  white-space: nowrap;
+}
 .backtosection__container {
   width: fit-content;
   /* margin-top: 15px; */
