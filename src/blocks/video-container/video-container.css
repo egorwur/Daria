@@ -6,3 +6,12 @@
   gap: 5px;
   flex-wrap: wrap;
 }
+@media (max-width: 560px) {
+  .video-container {
+    
+  }
+  .video {
+    width: 350px;
+    height: 300px;
+}
+}
