@@ -1,9 +1,31 @@
 /* Контейнер для переключателя */
+.theme-container {
+  display: flex;
+  flex-direction: row;
+}
+.theme-switcher__svg {
+  width: 25px;
+  filter: var(--svg-filter);
+  position: absolute;
+    top: 10px;
+  right: 85px;
+  width: 50px;
+  height: 25px;
+}
+.theme-switcher__svg2 {
+  width: 5px;
+  filter: var(--svg-filter);
+  position: absolute;
+    top: 0px;
+  right: -45px;
+  width: 50px;
+  height: 25px;
+}
 .theme-switcher {
   display: inline-block;
   position: absolute;
   top: 10px;
-  right: 10px;
+  right: 40px;
   width: 50px;
   height: 25px;
 }
