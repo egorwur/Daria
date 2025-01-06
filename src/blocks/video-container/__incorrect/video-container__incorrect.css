@@ -1,0 +1,9 @@
+.video-container__incorrect {
+  border: 5px solid #ff9b9b;
+  /* padding: 0 0 25px; */
+  /* box-sizing:content-box; */
+  background-color: #ff9b9b;
+  border-radius: 0 0 10px 10px;
+  max-width: fit-content;
+  text-align: center;
+}

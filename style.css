@@ -33,7 +33,8 @@
 @import url(./src/blocks/example/__container/example__container.css);
 
 @import url(./src/blocks/video-container/video-container.css);
-
+@import url(./src/blocks/video-container/__correct/video-container__correct.css);
+@import url(./src/blocks/video-container/__incorrect/video-container__incorrect.css);
 @import url(./src/blocks/list/list.css);
 
 :root {
