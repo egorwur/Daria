@@ -574,6 +574,12 @@ a {
   padding: 2px 5px;
   border-radius: 3px;
 }
+.redrow {
+  margin: 15px 0;
+}
+.centered {
+  text-align: center;
+}
 /* Универсальные стили */
 
 /* a:hover {
