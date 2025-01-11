@@ -1,19 +1,21 @@
-.video-container__correct {
+.example__correct {
   border: 5px solid #afff9b;
   /* padding: 0 0 25px; */
   /* box-sizing:content-box; */
   background-color: #afff9b;
-  border-radius: 0 0 10px 10px;
-  max-width: min-content;
+  border-radius: 15px;
+  max-width: 500px;
   text-align: center;
-    display: flex;
+  display: flex;
   flex-direction: column;
+  gap: 5px;
+}
+.example__correct > img {
+  max-width: 100%;
 }
 
-.video-container__text {
-  color: var(--primal-color-6);
+.example__text {
   max-width: 325px;
   text-align: center;
   padding: 0 10px;
-  align-self: center;
 }

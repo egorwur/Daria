@@ -37,6 +37,9 @@
 @import url(./src/blocks/video-container/__incorrect/video-container__incorrect.css);
 @import url(./src/blocks/list/list.css);
 
+@import url(./src/blocks/example/__correct/example__correct.css);
+@import url(./src/blocks/example/__incorrect/example__incorrect.css);
+
 :root {
   --background-color: #e9ecef;
   --text-color: #000000;
@@ -48,6 +51,7 @@
   --primal-color-5: #f9f9f9;
   --highlighted-color: #87cefa;
   --svg-filter: invert(0%);
+    --primal-color-6: #1e1e1e;
 }
 
 [data-theme="dark"] {
@@ -61,6 +65,7 @@
   --primal-color-5: #1e1e1e;
   --highlighted-color: #009ee2;
   --svg-filter: invert(100%);
+    --primal-color-6: #1e1e1e;
 }
 
 body {
@@ -81,7 +86,12 @@ a {
   color: #009ee2;
   font-weight: bold;
 }
-
+/* .video-container__text {
+  color: var(--primal-color-6);
+  max-width: 325px;
+  text-align: center;
+  padding: 0 10px;
+} */
 /* .page {
   background-color: #fff;
   display: flex;
