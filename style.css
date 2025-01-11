@@ -476,7 +476,8 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  gap: 10px;
 }
 .constructor__title {
   margin-bottom: 0;
@@ -504,6 +505,17 @@ a {
 .constructor__plus {
     width: 75px;
     filter: var(--svg-filter);
+}
+.federal__image {
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.padding {
+  padding: 20px 0px;
+}
+
+.maxwidth {
+  max-width: 45%;
 }
 
 .grid-item {
@@ -556,6 +568,9 @@ a {
 }
 
 @media (max-width: 1123px) {
+  .maxwidth {
+    max-width: 80%;
+  }
   .constructor {
     flex-direction: column;
     justify-content: center;
